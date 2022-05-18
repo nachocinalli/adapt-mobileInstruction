@@ -1,0 +1,19 @@
+{
+  "name": "adapt-mobileInstruction",
+  "version": "1.0.0",
+  "framework": ">=5.0.0",
+  "description": "An extension to swap the instruction for mobile devices",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachocinalli/adapt-mobileInstruction.git"
+  },
+  "main": "/js/adapt-mobileInstruction.js",
+  "displayName": "Mobile Instruction",
+  "extension": "mobileInstruction",
+  "keywords": ["adapt-plugin", "adapt-extension"],
+  "authors": ["Nacho Cinalli <nachocinalli@gmail.com>"],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/nachocinalli/adapt-mobileInstruction",
+  "issues": "https://github.com/nachocinalli/adapt-mobileInstruction/issues/",
+  "targetAttribute": "_mobileInstruction"
+}

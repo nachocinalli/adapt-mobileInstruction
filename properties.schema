@@ -1,0 +1,225 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "http://jsonschema.net",
+	"required": false,
+	"globals": {},
+	"properties": {
+		"pluginLocations": {
+			"type": "object",
+			"required": true,
+			"properties": {
+				"course": {
+					"type": "object",
+					"properties": {
+						"_mobileInstruction": {
+							"type": "object",
+							"required": false,
+							"legend": "Mobile Instruction",
+							"properties": {
+								"_isEnabled": {
+									"type": "boolean",
+									"required": true,
+									"default": false,
+									"title": "Is enabled",
+									"inputType": "Checkbox",
+									"validators": [],
+									"help": "Enable or disable the mobile instruction"
+								},
+								"instruction": {
+									"type": "string",
+									"required": true,
+									"default": "",
+									"title": "Instruction",
+									"inputType": "Text",
+									"validators": [],
+									"help": "The instruction for mobile",
+									"translatable": true
+								},
+								"_selector": {
+									"type": "string",
+									"required": false,
+									"default": ".menu__instruction-inner",
+									"title": "Selector",
+									"inputType": "Text",
+									"validators": [],
+									"help": "Default selector for the instruction dom element",
+									"translatable": false
+								}
+							}
+						}
+
+					}
+				},
+				"contentobject": {
+					"type": "object",
+					"properties": {
+						"_mobileInstruction": {
+							"type": "object",
+							"required": false,
+							"legend": "Mobile Instruction",
+							"properties": {
+								"_isEnabled": {
+									"type": "boolean",
+									"required": true,
+									"default": false,
+									"title": "Is enabled",
+									"inputType": "Checkbox",
+									"validators": [],
+									"help": "Enable or disable the mobile instruction"
+								},
+								"instruction": {
+									"type": "string",
+									"required": true,
+									"default": "",
+									"title": "Instruction",
+									"inputType": "Text",
+									"validators": [],
+									"help": "The instruction for mobile",
+									"translatable": true
+								},
+								"_selector": {
+									"type": "string",
+									"required": false,
+									"default": ".page__instruction-inner",
+									"title": "Selector",
+									"inputType": "Text",
+									"validators": [],
+									"help": "Default selector for the instruction dom element",
+									"translatable": false
+								}
+							}
+						}
+
+					}
+				},
+				"article": {
+					"type": "object",
+					"properties": {
+						"_mobileInstruction": {
+							"type": "object",
+							"required": false,
+							"legend": "Mobile Instruction",
+							"properties": {
+								"_isEnabled": {
+									"type": "boolean",
+									"required": true,
+									"default": false,
+									"title": "Is enabled",
+									"inputType": "Checkbox",
+									"validators": [],
+									"help": "Enable or disable the mobile instruction"
+								},
+								"instruction": {
+									"type": "string",
+									"required": true,
+									"default": "",
+									"title": "Instruction",
+									"inputType": "Text",
+									"validators": [],
+									"help": "The instruction for mobile",
+									"translatable": true
+								},
+								"_selector": {
+									"type": "string",
+									"required": false,
+									"default": ".article__instruction-inner",
+									"title": "Selector",
+									"inputType": "Text",
+									"validators": [],
+									"help": "Default selector for the instruction dom element",
+									"translatable": false
+								}
+							}
+						}
+
+					}
+				},
+				"block": {
+					"type": "object",
+					"properties": {
+						"_mobileInstruction": {
+							"type": "object",
+							"required": false,
+							"legend": "Mobile Instruction",
+							"properties": {
+								"_isEnabled": {
+									"type": "boolean",
+									"required": true,
+									"default": false,
+									"title": "Is enabled",
+									"inputType": "Checkbox",
+									"validators": [],
+									"help": "Enable or disable the mobile instruction"
+								},
+								"instruction": {
+									"type": "string",
+									"required": true,
+									"default": "",
+									"title": "Instruction",
+									"inputType": "Text",
+									"validators": [],
+									"help": "The instruction for mobile",
+									"translatable": true
+								},
+								"_selector": {
+									"type": "string",
+									"required": false,
+									"default": ".block__instruction-inner",
+									"title": "Selector",
+									"inputType": "Text",
+									"validators": [],
+									"help": "Default selector for the instruction dom element",
+									"translatable": false
+								}
+							}
+						}
+
+					}
+				},
+				"component": {
+					"type": "object",
+					"properties": {
+						"_mobileInstruction": {
+							"type": "object",
+							"required": false,
+							"legend": "Mobile Instruction",
+							"properties": {
+								"_isEnabled": {
+									"type": "boolean",
+									"required": true,
+									"default": false,
+									"title": "Is enabled",
+									"inputType": "Checkbox",
+									"validators": [],
+									"help": "Enable or disable the mobile instruction"
+								},
+								"instruction": {
+									"type": "string",
+									"required": true,
+									"default": "",
+									"title": "Instruction",
+									"inputType": "Text",
+									"validators": [],
+									"help": "The instruction for mobile",
+									"translatable": false
+								},
+								"_selector": {
+									"type": "string",
+									"required": false,
+									"default": ".component__instruction-inner",
+									"title": "Selector",
+									"inputType": "Text",
+									"validators": [],
+									"help": "Default selector for the instruction dom element",
+									"translatable": false
+								}
+							}
+						}
+
+					}
+				}
+			}
+		}
+	}
+}
