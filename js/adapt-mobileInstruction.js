@@ -43,7 +43,7 @@ class MobileInstruction extends Backbone.Controller {
     const instruction = model.get('instruction');
     const _mobileInstruction = model.get('_mobileInstruction');
     const mobileInstruction = _mobileInstruction.instruction;
-    const sizedInstruction = (mobileInstruction && device.screenSize !== 'large') ? mobileInstruction : instruction;
+    const sizedInstruction = (device.screenSize === 'small' && mobileInstruction) ? mobileInstruction : instruction;
     el.html(sizedInstruction);
   }
 
