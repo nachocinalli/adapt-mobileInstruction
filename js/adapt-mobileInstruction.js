@@ -55,11 +55,13 @@ class MobileInstruction extends Backbone.Controller {
       const el = _.isEmpty(_mobileInstruction._selector) ? $('.menu__instruction-inner') : $(_mobileInstruction._selector);
       this.renderMobileInstruction(model, el);
     } else {
-      if (!this.checkIsEnabled(model)) return;
-      const _mobileInstruction = model.get('_mobileInstruction');
-      const el = _.isEmpty(_mobileInstruction._selector) ? $('.page__instruction-inner') : $(_mobileInstruction._selector);
-      this.renderMobileInstruction(model, el);
+      if (this.checkIsEnabled(model)) {
+        const _mobileInstruction = model.get('_mobileInstruction');
+        const el = _.isEmpty(_mobileInstruction._selector) ? $('.page__instruction-inner') : $(_mobileInstruction._selector);
+        this.renderMobileInstruction(model, el);
+      }
       const allDescendants = model.getAllDescendantModels(true);
+
       allDescendants.forEach(descendant => {
         if (!this.checkIsEnabled(descendant)) return;
         const _mobileInstruction = descendant.get('_mobileInstruction');
