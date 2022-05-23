@@ -1,7 +1,36 @@
+//contentObjects.json
 {
+  "instruction": "Instruction text",
   "_mobileInstruction": {
     "_isEnabled": true,
-    "instruction": "",
-    "_selector": ""
+    "instruction": "Mobile page instruction text",
+    "_selector": ".page__instruction-inner"
+  }
+}
+//articles.json
+{
+  "instruction": "Article instruction text",
+  "_mobileInstruction": {
+    "_isEnabled": true,
+    "instruction": "Mobile article instruction text",
+    "_selector": ".article__instruction-inner"
+  }
+}
+//blocks.json
+{
+  "instruction": "Block instruction text",
+  "_mobileInstruction": {
+    "_isEnabled": true,
+    "instruction": "Mobile block instruction text",
+    "_selector": ".block__instruction-inner"
+  }
+}
+//components.json
+{
+  "instruction": "Component instruction text",
+  "_mobileInstruction": {
+    "_isEnabled": true,
+    "instruction": "Mobile component instruction text",
+    "_selector": ".component__instruction-inner"
   }
 }
