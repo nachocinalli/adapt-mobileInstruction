@@ -4,7 +4,8 @@
   "_mobileInstruction": {
     "_isEnabled": true,
     "instruction": "Mobile page instruction text",
-    "_selector": ".page__instruction-inner"
+    "_selector": ".page__instruction-inner",
+    "_setOnScreenWidth": 520
   }
 }
 //articles.json
@@ -13,7 +14,8 @@
   "_mobileInstruction": {
     "_isEnabled": true,
     "instruction": "Mobile article instruction text",
-    "_selector": ".article__instruction-inner"
+    "_selector": ".article__instruction-inner",
+    "_setOnScreenWidth": 520
   }
 }
 //blocks.json
@@ -22,7 +24,8 @@
   "_mobileInstruction": {
     "_isEnabled": true,
     "instruction": "Mobile block instruction text",
-    "_selector": ".block__instruction-inner"
+    "_selector": ".block__instruction-inner",
+    "_setOnScreenWidth": 520
   }
 }
 //components.json
@@ -31,6 +34,7 @@
   "_mobileInstruction": {
     "_isEnabled": true,
     "instruction": "Mobile component instruction text",
-    "_selector": ".component__instruction-inner"
+    "_selector": ".component__instruction-inner",
+    "_setOnScreenWidth": 520
   }
 }

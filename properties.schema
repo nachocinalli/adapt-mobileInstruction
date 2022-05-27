@@ -45,10 +45,18 @@
 									"validators": [],
 									"help": "Default selector for the instruction dom element",
 									"translatable": false
+								},
+								"_setOnScreenWidth": {
+									"type": "number",
+									"required": true,
+									"default": 520,
+									"title": "Set on screen width",
+									"inputType": "Number",
+									"validators": ["required"],
+									"help": "The screen width to set the mobile instruction"
 								}
 							}
 						}
-
 					}
 				},
 				"contentobject": {
@@ -87,6 +95,15 @@
 									"validators": [],
 									"help": "Default selector for the instruction dom element",
 									"translatable": false
+								},
+								"_setOnScreenWidth": {
+									"type": "number",
+									"required": true,
+									"default": 520,
+									"title": "Set on screen width",
+									"inputType": "Number",
+									"validators": ["required"],
+									"help": "The screen width to set the mobile instruction"
 								}
 							}
 						}
@@ -129,6 +146,15 @@
 									"validators": [],
 									"help": "Default selector for the instruction dom element",
 									"translatable": false
+								},
+								"_setOnScreenWidth": {
+									"type": "number",
+									"required": true,
+									"default": 520,
+									"title": "Set on screen width",
+									"inputType": "Number",
+									"validators": ["required"],
+									"help": "The screen width to set the mobile instruction"
 								}
 							}
 						}
@@ -171,6 +197,15 @@
 									"validators": [],
 									"help": "Default selector for the instruction dom element",
 									"translatable": false
+								},
+								"_setOnScreenWidth": {
+									"type": "number",
+									"required": true,
+									"default": 520,
+									"title": "Set on screen width",
+									"inputType": "Number",
+									"validators": ["required"],
+									"help": "The screen width to set the mobile instruction"
 								}
 							}
 						}
@@ -213,6 +248,15 @@
 									"validators": [],
 									"help": "Default selector for the instruction dom element",
 									"translatable": false
+								},
+								"_setOnScreenWidth": {
+									"type": "number",
+									"required": true,
+									"default": 520,
+									"title": "Set on screen width",
+									"inputType": "Number",
+									"validators": ["required"],
+									"help": "The screen width to set the mobile instruction"
 								}
 							}
 						}
